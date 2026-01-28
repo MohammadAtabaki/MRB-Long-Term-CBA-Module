@@ -1,0 +1,7 @@
+{
+  "n_zones": 3,
+  "n_types_in_table_phase1": 22,
+  "n_types_in_table_phase2": 22,
+  "phase1_n_gaps": 24,
+  "phase2_top_n": 50
+}

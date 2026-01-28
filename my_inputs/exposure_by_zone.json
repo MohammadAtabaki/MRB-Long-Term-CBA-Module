@@ -1,0 +1,28 @@
+{
+  "counts": [
+    {
+      "zone_id": "Zone_Yellow",
+      "counts_by_type": {
+        "hospitals_health_center": 2,
+        "shelters": 1,
+        "fuel_gas_stations": 1,
+        "roads": 5,
+        "power_central": 1
+      }
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "counts_by_type": {
+        "schools": 1,
+        "ports": 1,
+        "roads": 3
+      }
+    },
+    {
+      "zone_id": "Zone_Pink",
+      "counts_by_type": {
+        "water_storage": 1
+      }
+    }
+  ]
+}

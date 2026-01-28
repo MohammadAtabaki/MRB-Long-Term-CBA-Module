@@ -1,0 +1,7 @@
+{
+  "zones": [
+    {"zone_id": "Zone_Yellow", "HD": 5, "F": 5, "I": 5},
+    {"zone_id": "Zone_Orange", "HD": 4, "F": 4, "I": 4},
+    {"zone_id": "Zone_Pink", "HD": 2, "F": 2, "I": 2}
+  ]
+}

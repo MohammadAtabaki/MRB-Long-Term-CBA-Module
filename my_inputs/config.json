@@ -1,0 +1,7 @@
+{
+  "phase1_gap_value_threshold": 4,
+  "phase1_only_nonlow_hazard": true,
+  "alpha_min": 0.55,
+  "alpha_max": 0.92,
+  "phase2_top_n": 50
+}

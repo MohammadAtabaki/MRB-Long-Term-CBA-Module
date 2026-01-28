@@ -1,0 +1,7 @@
+services:
+  demo:
+    build: .
+    image: mrb-longterm-demo
+    volumes:
+      - ./my_inputs:/app/demo/demo_inputs:ro
+      - ./my_outputs:/app/demo/demo_outputs

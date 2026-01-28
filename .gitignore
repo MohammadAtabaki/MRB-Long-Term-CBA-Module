@@ -1,0 +1,98 @@
+######################################
+# Python
+######################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+######################################
+# Virtual environments
+######################################
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+######################################
+# Build / packaging
+######################################
+build/
+dist/
+wheelhouse/
+*.whl
+
+######################################
+# Pytest / coverage
+######################################
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.coverage.xml
+pytestdebug.log
+
+######################################
+# Jupyter / notebooks
+######################################
+.ipynb_checkpoints/
+
+######################################
+# IDEs / Editors
+######################################
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+######################################
+# OS-specific
+######################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+######################################
+# Logs
+######################################
+*.log
+
+######################################
+# Demo & runtime outputs
+# (IMPORTANT: do not commit generated results)
+######################################
+output/
+demo/demo_outputs/
+
+######################################
+# Local input data (MRB runtime)
+# (Keep input schemas / examples, not real runs)
+######################################
+input/
+
+######################################
+# Docker (generated artifacts)
+######################################
+*.pid
+*.tar
+docker-compose.override.yml
+
+######################################
+# Temporary / scratch
+######################################
+tmp/
+temp/
+.cache/
+
+######################################
+# Environment secrets
+######################################
+*.env
+.env.*

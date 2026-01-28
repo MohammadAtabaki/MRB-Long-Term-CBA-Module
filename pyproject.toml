@@ -1,0 +1,23 @@
+[project]
+name = "mrb-longterm"
+version = "0.1.0"
+description = "MultiRiskBox long-term CBA (Phase 1 & Phase 2)"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+mrb-longterm = "mrb_longterm.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
