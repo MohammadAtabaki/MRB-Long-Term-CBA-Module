@@ -96,3 +96,11 @@ temp/
 ######################################
 *.env
 .env.*
+
+
+# MRB runtime folders (tracked but empty)
+input/*
+!input/.gitkeep
+
+output/*
+!output/.gitkeep

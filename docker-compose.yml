@@ -1,9 +1,8 @@
 services:
-  demo:
+  mrb-longterm:
     build: .
-    image: mrb-longterm-demo
+    image: mrb-long-term-cba:latest
     volumes:
-      - ./my_inputs:/inputs:ro
-      - ./my_outputs:/outputs
-    entrypoint: ["python", "-m", "mrb_longterm.cli"]
-    command: ["--input", "/inputs", "--output", "/outputs"]
+      - ./input:/input:ro
+      - ./output:/output
+    command: ["--input", "/input", "--output", "/output"]
