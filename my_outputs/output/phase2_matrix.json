@@ -1,0 +1,62 @@
+{
+  "phase": 2,
+  "meaning": "Aggregated mitigation importance per (zone, element_type)",
+  "cells_definition": {
+    "n_assets": "how many assets of this type were ranked",
+    "sum_final_score": "total contribution after diminishing returns",
+    "max_final_score": "highest-ranked asset of this type"
+  },
+  "matrix": {
+    "Zone_Yellow": {
+      "hospitals_health_center": {
+        "n_assets": 2,
+        "sum_final_score": 1065.6,
+        "max_final_score": 555.0
+      },
+      "shelters": {
+        "n_assets": 1,
+        "sum_final_score": 555.0,
+        "max_final_score": 555.0
+      },
+      "power_central": {
+        "n_assets": 1,
+        "sum_final_score": 555.0,
+        "max_final_score": 555.0
+      },
+      "fuel_gas_stations": {
+        "n_assets": 1,
+        "sum_final_score": 554.0,
+        "max_final_score": 554.0
+      },
+      "roads": {
+        "n_assets": 5,
+        "sum_final_score": 1342.7524418081252,
+        "max_final_score": 453.0
+      }
+    },
+    "Zone_Orange": {
+      "schools": {
+        "n_assets": 1,
+        "sum_final_score": 544.0,
+        "max_final_score": 544.0
+      },
+      "ports": {
+        "n_assets": 1,
+        "sum_final_score": 443.0,
+        "max_final_score": 443.0
+      },
+      "roads": {
+        "n_assets": 3,
+        "sum_final_score": 216.20452178487574,
+        "max_final_score": 95.02555649875319
+      }
+    },
+    "Zone_Pink": {
+      "water_storage": {
+        "n_assets": 1,
+        "sum_final_score": 224.0,
+        "max_final_score": 224.0
+      }
+    }
+  }
+}

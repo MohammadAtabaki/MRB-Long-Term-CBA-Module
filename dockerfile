@@ -2,19 +2,25 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# (Optional but handy) system deps for building wheels from source
+# Optional build deps (safe default)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
- && rm -rf /var/lib/apt/lists/*
+  && rm -rf /var/lib/apt/lists/*
 
-# Copy the project
+# Copy only what is needed to install + run
 COPY pyproject.toml ./
-COPY poetry.lock* ./
+COPY README.md ./
+COPY LICENSE ./
 COPY src ./src
-COPY demo ./demo
 
-# Install the package
+# Install the module
 RUN pip install --no-cache-dir -U pip \
- && pip install --no-cache-dir .
+  && pip install --no-cache-dir .
 
-# Run the demo script
+# Standard MRB mount points
+RUN mkdir -p /input /output
+
+# Default execution: read /input, write /output
+ENTRYPOINT ["python", "-m", "mrb_longterm.cli"]
+CMD ["--input", "/input", "--output", "/output"]
+

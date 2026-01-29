@@ -68,14 +68,14 @@ desktop.ini
 # Demo & runtime outputs
 # (IMPORTANT: do not commit generated results)
 ######################################
-output/
+
 demo/demo_outputs/
 
 ######################################
 # Local input data (MRB runtime)
 # (Keep input schemas / examples, not real runs)
 ######################################
-input/
+
 
 ######################################
 # Docker (generated artifacts)

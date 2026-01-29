@@ -1,0 +1,129 @@
+{
+  "phase": 2,
+  "mode": "counts-only (synthetic assets)",
+  "top_n_applied": 50,
+  "alpha": {
+    "min": 0.55,
+    "max": 0.92
+  },
+  "summary_by_type": [
+    {
+      "element_type": "roads",
+      "n_assets": 8,
+      "sum_final_score": 1558.956963593001,
+      "avg_final_score": 194.86962044912514,
+      "max_final_score": 453.0,
+      "min_final_score": 51.33518125953895,
+      "priority_labels": {
+        "High": 8
+      },
+      "zones": [
+        "Zone_Orange",
+        "Zone_Yellow"
+      ]
+    },
+    {
+      "element_type": "hospitals_health_center",
+      "n_assets": 2,
+      "sum_final_score": 1065.6,
+      "avg_final_score": 532.8,
+      "max_final_score": 555.0,
+      "min_final_score": 510.6,
+      "priority_labels": {
+        "Very High": 2
+      },
+      "zones": [
+        "Zone_Yellow"
+      ]
+    },
+    {
+      "element_type": "shelters",
+      "n_assets": 1,
+      "sum_final_score": 555.0,
+      "avg_final_score": 555.0,
+      "max_final_score": 555.0,
+      "min_final_score": 555.0,
+      "priority_labels": {
+        "Very High": 1
+      },
+      "zones": [
+        "Zone_Yellow"
+      ]
+    },
+    {
+      "element_type": "power_central",
+      "n_assets": 1,
+      "sum_final_score": 555.0,
+      "avg_final_score": 555.0,
+      "max_final_score": 555.0,
+      "min_final_score": 555.0,
+      "priority_labels": {
+        "Very High": 1
+      },
+      "zones": [
+        "Zone_Yellow"
+      ]
+    },
+    {
+      "element_type": "fuel_gas_stations",
+      "n_assets": 1,
+      "sum_final_score": 554.0,
+      "avg_final_score": 554.0,
+      "max_final_score": 554.0,
+      "min_final_score": 554.0,
+      "priority_labels": {
+        "Very High": 1
+      },
+      "zones": [
+        "Zone_Yellow"
+      ]
+    },
+    {
+      "element_type": "schools",
+      "n_assets": 1,
+      "sum_final_score": 544.0,
+      "avg_final_score": 544.0,
+      "max_final_score": 544.0,
+      "min_final_score": 544.0,
+      "priority_labels": {
+        "Very High": 1
+      },
+      "zones": [
+        "Zone_Orange"
+      ]
+    },
+    {
+      "element_type": "ports",
+      "n_assets": 1,
+      "sum_final_score": 443.0,
+      "avg_final_score": 443.0,
+      "max_final_score": 443.0,
+      "min_final_score": 443.0,
+      "priority_labels": {
+        "High": 1
+      },
+      "zones": [
+        "Zone_Orange"
+      ]
+    },
+    {
+      "element_type": "water_storage",
+      "n_assets": 1,
+      "sum_final_score": 224.0,
+      "avg_final_score": 224.0,
+      "max_final_score": 224.0,
+      "min_final_score": 224.0,
+      "priority_labels": {
+        "Medium": 1
+      },
+      "zones": [
+        "Zone_Pink"
+      ]
+    }
+  ],
+  "legend": {
+    "sum_final_score": "Total contribution of this type in the ranked list",
+    "avg_final_score": "Average final_score after diminishing returns",
+    "priority_labels": "How many items of this type ended up in each PriorityLabel bucket"
+  }
+}

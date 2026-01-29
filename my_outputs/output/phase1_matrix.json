@@ -1,0 +1,159 @@
+{
+  "element_types": [
+    "municipality_population",
+    "industrial_infrastructure",
+    "shelters",
+    "buildings_general",
+    "hospitals_health_center",
+    "emergencies_facilities",
+    "schools",
+    "minery",
+    "roads",
+    "aerial_transport",
+    "ports",
+    "train",
+    "power_line",
+    "power_central",
+    "power_tower",
+    "electric_transformation",
+    "power_antenna",
+    "pipeline",
+    "general_tank",
+    "fuel_gas_stations",
+    "water_storage",
+    "water_conduction"
+  ],
+  "phase": 1,
+  "mode": "counts-only",
+  "threshold": {
+    "phase1_gap_value_threshold": 4,
+    "phase1_only_nonlow_hazard": true
+  },
+  "ranking_matrix_definition": {
+    "axes": {
+      "x": "value_index (1–5, from Excel)",
+      "y": "hazard_class (low / medium / high)"
+    },
+    "cells_meaning": "priority_label / priority_rank",
+    "priority_scale": {
+      "1": "Low",
+      "2": "Medium",
+      "3": "Medium-High",
+      "4": "High",
+      "5": "Very High"
+    }
+  },
+  "matrix_rows": [
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_index": 4,
+      "hazard_class": "high",
+      "suitability": "Not suitable",
+      "cells": [
+        {
+          "element_type": "water_conduction",
+          "hazard_class": "high",
+          "value_index": 4,
+          "priority_label": "Very High",
+          "priority_rank": 5,
+          "count": 0,
+          "is_gap": true
+        }
+      ]
+    },
+    {
+      "zone_id": "Zone_Pink",
+      "hazard_index": 2,
+      "hazard_class": "low",
+      "suitability": "Suitable",
+      "cells": [
+        {
+          "element_type": "water_conduction",
+          "hazard_class": "low",
+          "value_index": 4,
+          "priority_label": "Medium",
+          "priority_rank": 2,
+          "count": 0,
+          "is_gap": true
+        }
+      ]
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_index": 5,
+      "hazard_class": "high",
+      "suitability": "Not suitable",
+      "cells": [
+        {
+          "element_type": "water_conduction",
+          "hazard_class": "high",
+          "value_index": 4,
+          "priority_label": "Very High",
+          "priority_rank": 5,
+          "count": 0,
+          "is_gap": true
+        }
+      ]
+    }
+  ],
+  "gaps_only_rows": [
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_class": "high",
+      "hazard_index": 4,
+      "cells": [
+        {
+          "element_type": "water_conduction",
+          "hazard_class": "high",
+          "value_index": 4,
+          "priority_label": "Very High",
+          "priority_rank": 5,
+          "count": 0,
+          "is_gap": true
+        }
+      ]
+    },
+    {
+      "zone_id": "Zone_Pink",
+      "hazard_class": "low",
+      "hazard_index": 2,
+      "cells": [
+        {
+          "element_type": "water_conduction",
+          "hazard_class": "low",
+          "value_index": 4,
+          "priority_label": "Medium",
+          "priority_rank": 2,
+          "count": 0,
+          "is_gap": true
+        }
+      ]
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_class": "high",
+      "hazard_index": 5,
+      "cells": [
+        {
+          "element_type": "water_conduction",
+          "hazard_class": "high",
+          "value_index": 4,
+          "priority_label": "Very High",
+          "priority_rank": 5,
+          "count": 0,
+          "is_gap": true
+        }
+      ]
+    }
+  ],
+  "legend": {
+    "cell_fields": [
+      "count",
+      "value_index",
+      "priority_label",
+      "priority_rank",
+      "is_gap"
+    ],
+    "is_gap_definition": "is_gap = (value_index >= threshold) AND (count == 0)"
+  }
+}

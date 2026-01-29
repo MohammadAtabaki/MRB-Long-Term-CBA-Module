@@ -1,0 +1,610 @@
+{
+  "zoning": [
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_index": 5,
+      "hazard_class": "high",
+      "HD": 5,
+      "F": 5,
+      "I": 5
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_index": 4,
+      "hazard_class": "high",
+      "HD": 4,
+      "F": 4,
+      "I": 4
+    },
+    {
+      "zone_id": "Zone_Pink",
+      "hazard_index": 2,
+      "hazard_class": "low",
+      "HD": 2,
+      "F": 2,
+      "I": 2
+    }
+  ],
+  "suitability_by_zone": {
+    "Zone_Yellow": "Not suitable",
+    "Zone_Orange": "Not suitable",
+    "Zone_Pink": "Suitable"
+  },
+  "existing": [
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_index": 5,
+      "hazard_class": "high",
+      "element_type": "hospitals_health_center",
+      "value_index": 5,
+      "priority_label": "Very High",
+      "count": 2,
+      "base_score": 555.0
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_index": 5,
+      "hazard_class": "high",
+      "element_type": "shelters",
+      "value_index": 5,
+      "priority_label": "Very High",
+      "count": 1,
+      "base_score": 555.0
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_index": 5,
+      "hazard_class": "high",
+      "element_type": "fuel_gas_stations",
+      "value_index": 5,
+      "priority_label": "Very High",
+      "count": 1,
+      "base_score": 555.0
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_index": 5,
+      "hazard_class": "high",
+      "element_type": "power_central",
+      "value_index": 4,
+      "priority_label": "Very High",
+      "count": 1,
+      "base_score": 554.0
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_index": 4,
+      "hazard_class": "high",
+      "element_type": "schools",
+      "value_index": 4,
+      "priority_label": "Very High",
+      "count": 1,
+      "base_score": 544.0
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_index": 4,
+      "hazard_class": "high",
+      "element_type": "ports",
+      "value_index": 4,
+      "priority_label": "Very High",
+      "count": 1,
+      "base_score": 544.0
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_index": 5,
+      "hazard_class": "high",
+      "element_type": "roads",
+      "value_index": 3,
+      "priority_label": "High",
+      "count": 5,
+      "base_score": 453.0
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_index": 4,
+      "hazard_class": "high",
+      "element_type": "roads",
+      "value_index": 3,
+      "priority_label": "High",
+      "count": 3,
+      "base_score": 443.0
+    }
+  ],
+  "gaps": [
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_class": "high",
+      "element_type": "municipality_population",
+      "value_index": 5,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_class": "high",
+      "element_type": "emergencies_facilities",
+      "value_index": 5,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_class": "high",
+      "element_type": "municipality_population",
+      "value_index": 5,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_class": "high",
+      "element_type": "shelters",
+      "value_index": 5,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_class": "high",
+      "element_type": "hospitals_health_center",
+      "value_index": 5,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_class": "high",
+      "element_type": "emergencies_facilities",
+      "value_index": 5,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_class": "high",
+      "element_type": "fuel_gas_stations",
+      "value_index": 5,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_class": "high",
+      "element_type": "buildings_general",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_class": "high",
+      "element_type": "schools",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_class": "high",
+      "element_type": "aerial_transport",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_class": "high",
+      "element_type": "ports",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_class": "high",
+      "element_type": "train",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_class": "high",
+      "element_type": "electric_transformation",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_class": "high",
+      "element_type": "general_tank",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_class": "high",
+      "element_type": "water_storage",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Yellow",
+      "hazard_class": "high",
+      "element_type": "water_conduction",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_class": "high",
+      "element_type": "buildings_general",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_class": "high",
+      "element_type": "aerial_transport",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_class": "high",
+      "element_type": "train",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_class": "high",
+      "element_type": "power_central",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_class": "high",
+      "element_type": "electric_transformation",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_class": "high",
+      "element_type": "general_tank",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_class": "high",
+      "element_type": "water_storage",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    },
+    {
+      "zone_id": "Zone_Orange",
+      "hazard_class": "high",
+      "element_type": "water_conduction",
+      "value_index": 4,
+      "observed": 0,
+      "expected": 1,
+      "gap": 1,
+      "note": "Missing (counts-only mode)"
+    }
+  ],
+  "gaps_grouped_by_hazard_class": {
+    "low": [],
+    "medium": [],
+    "high": [
+      {
+        "zone_id": "Zone_Yellow",
+        "hazard_class": "high",
+        "element_type": "municipality_population",
+        "value_index": 5,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Yellow",
+        "hazard_class": "high",
+        "element_type": "emergencies_facilities",
+        "value_index": 5,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Orange",
+        "hazard_class": "high",
+        "element_type": "municipality_population",
+        "value_index": 5,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Orange",
+        "hazard_class": "high",
+        "element_type": "shelters",
+        "value_index": 5,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Orange",
+        "hazard_class": "high",
+        "element_type": "hospitals_health_center",
+        "value_index": 5,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Orange",
+        "hazard_class": "high",
+        "element_type": "emergencies_facilities",
+        "value_index": 5,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Orange",
+        "hazard_class": "high",
+        "element_type": "fuel_gas_stations",
+        "value_index": 5,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Yellow",
+        "hazard_class": "high",
+        "element_type": "buildings_general",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Yellow",
+        "hazard_class": "high",
+        "element_type": "schools",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Yellow",
+        "hazard_class": "high",
+        "element_type": "aerial_transport",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Yellow",
+        "hazard_class": "high",
+        "element_type": "ports",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Yellow",
+        "hazard_class": "high",
+        "element_type": "train",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Yellow",
+        "hazard_class": "high",
+        "element_type": "electric_transformation",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Yellow",
+        "hazard_class": "high",
+        "element_type": "general_tank",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Yellow",
+        "hazard_class": "high",
+        "element_type": "water_storage",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Yellow",
+        "hazard_class": "high",
+        "element_type": "water_conduction",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Orange",
+        "hazard_class": "high",
+        "element_type": "buildings_general",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Orange",
+        "hazard_class": "high",
+        "element_type": "aerial_transport",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Orange",
+        "hazard_class": "high",
+        "element_type": "train",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Orange",
+        "hazard_class": "high",
+        "element_type": "power_central",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Orange",
+        "hazard_class": "high",
+        "element_type": "electric_transformation",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Orange",
+        "hazard_class": "high",
+        "element_type": "general_tank",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Orange",
+        "hazard_class": "high",
+        "element_type": "water_storage",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      },
+      {
+        "zone_id": "Zone_Orange",
+        "hazard_class": "high",
+        "element_type": "water_conduction",
+        "value_index": 4,
+        "observed": 0,
+        "expected": 1,
+        "gap": 1,
+        "note": "Missing (counts-only mode)"
+      }
+    ]
+  },
+  "notes": {
+    "mode": "counts-only",
+    "phase1_gap_value_threshold": 4,
+    "phase1_only_nonlow_hazard": true,
+    "existing_definition": "Existing = element types with count > 0, scored via hazard class × Excel ValueIndex.",
+    "gap_definition": "Gap = important type (ValueIndex >= threshold) with count == 0."
+  }
+}
